@@ -6,7 +6,6 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1", 
-  "deploy": "deploy-node-module",
 	  "start": "node app.js"
   },
   "author": "sallabh",
@@ -23,9 +22,5 @@
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^5.0.1"
     
-  },
-  "devDependencies": {
-    "deploy-node-module": "^1.0.4",
-    "gh-pages": "^2.1.1"
   }
 }
