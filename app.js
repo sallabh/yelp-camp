@@ -17,7 +17,11 @@ var commentRoutes 		= require("./routes/comments"),
 	indexRoutes       	= require("./routes/index")
 
 
-mongoose.connect("mongodb://localhost:27017/yelp_camp_v10",{ useNewUrlParser: true });
+// mongoose.connect("mongodb://localhost:27017/yelp_camp_v10",{ useNewUrlParser: true });
+//mongoose.connect("mongodb+srv://sallabh:Ft$b1173@yelpcamp-0suuk.mongodb.net/test?retryWrites=true&w=majority");
+//
+mongoose.connect("mongodb+srv://sallabhk:Ft$b1173@cluster0-yhqqa.mongodb.net/test?retryWrites=true&w=majority/cmscart",{ useNewUrlParser: true });
+
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine","ejs");
 app.use(express.static(__dirname + "/public"));

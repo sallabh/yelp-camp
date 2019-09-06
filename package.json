@@ -2,7 +2,6 @@
   "name": "v1",
   "version": "1.0.0",
   "description": "",
-	"homepage": "https://sallabh.github.io/yelp-camp",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1", 
